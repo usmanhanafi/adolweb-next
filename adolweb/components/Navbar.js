@@ -3,7 +3,7 @@ import Image from "next/image";
 const logo = "/assets/img/logo.svg";
 const Navbar = () => {
     return (
-        <nav className="fixed z-20 bg-white">
+        <nav className="fixed z-20">
             <div className="container mx-auto flex py-8">
                 {/* logo */}
                 <div className="flex justify-start">
