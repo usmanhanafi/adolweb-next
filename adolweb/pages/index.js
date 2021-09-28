@@ -18,7 +18,7 @@ const index = () => {
         <div className="container px-6 md:px-0 mx-auto">
           <div className="h-screen w-screen">
             <div className="flex h-screen items-center">
-          <h1 className="font-normal text-black text-5xl md:text-8xl leading-tight tracking-wide">
+          <h1 className="font-normal text-black text-5xl md:text-8xl leading-tight tracking-wide font-sans">
             We like to help you build{" "}
             <span className="font-bold text-secondary">Website & Apps</span>
           </h1>

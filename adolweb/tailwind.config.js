@@ -1,4 +1,12 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme')
+
+const fontFamily = defaultTheme.fontFamily;
+fontFamily['sans'] = [
+  'Poppins', // <-- Roboto is a default sans font now
+  'system-ui',
+  // <-- you may provide more font fallbacks here
+];
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
@@ -16,8 +24,8 @@ module.exports = {
           lighten: '#95E5FF',
           darken: '#1ABDF1',
         },
-        // white: '#fff',
-      }
+      },
+      fontFamily: fontFamily
     },
   },
   variants: {
